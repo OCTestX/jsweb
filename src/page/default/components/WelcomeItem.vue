@@ -1,4 +1,5 @@
 <template>
+  <!-- 类似<slot name="icon"></slot>的代码是调用方的ui放置占位符号 -->
   <div class="item">
     <i>
       <slot name="icon"></slot>

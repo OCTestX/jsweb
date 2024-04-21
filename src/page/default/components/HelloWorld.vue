@@ -1,4 +1,5 @@
 <script setup>
+// 参数在这里接受
 defineProps({
   msg: {
     type: String,
@@ -9,6 +10,7 @@ defineProps({
 
 <template>
   <div class="greetings">
+    <!-- 这里引用了msg参数 -->
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
